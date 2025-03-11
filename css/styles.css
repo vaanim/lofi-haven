@@ -1344,6 +1344,18 @@ input[type='checkbox'] {
 	display: none;
 }
 
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px; /* Optional: Set a max-width to prevent extreme stretching */
+    margin: 0 auto; /* Centers the video */
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 
 /**********************/
